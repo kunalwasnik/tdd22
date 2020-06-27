@@ -1,0 +1,205 @@
+    <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery.min.js"> </script>
+    <script src="jquery.cloud9carousel.js"></script>
+
+ <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+
+
+
+  <script type="text/javascript">
+
+
+  $(document).ready(function(){
+
+    $("#carousel").Cloud9Carousel( {
+      buttonLeft: $("#buttons > .left"),
+      buttonRight: $("#buttons > .right"),
+      autoPlay: 0,
+      bringToFront: true
+    } );
+
+
+  });
+    </script>
+<style>
+  html{
+    font-family: 'Baloo Paaji 2', cursive;
+
+    
+  }
+
+    #carousel .cloud9-item, #buttons button {
+      cursor: pointer;
+    }
+    html, body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100%;
+          background-color : black;
+    }
+
+    body {
+          color: #fff;
+          background: url(hero.jpg) no-repeat 50% 50%;
+          background-size: cover;
+          overflow-x: hidden;
+    }
+
+    img{
+      height: 180px;
+      width : 180px;
+        border-radius: 80%;
+      padding : 50px;
+
+
+
+    }
+    #carousel{
+      width : 800px;
+
+      height : 500px;
+
+    }
+
+    .name{
+
+    	font-size : 25px;
+    	left:50px;
+    	position: absolute;
+    	width:300px;
+
+    }
+    .role{
+
+        font-size : 15px;
+      left:35px;
+      top:40px;
+      position: absolute;
+      text-align: center;
+      width:200px;
+
+
+
+      
+
+
+    }
+    #wrap{
+      position: absolute;
+      left:20%;
+
+    }
+
+
+    #topic{
+
+      text-align: center;
+      font-size : 20px;
+    }
+    #topic2{
+
+      text-align: center;
+      font-size : 30px;
+    }
+    #logo{
+      height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -2%;
+    left: 33.7%;
+  }
+
+
+      </style>
+
+      </head>
+
+  <body>
+
+    <div id = "topic">
+      <br>
+         <img src="images/logo.png" id="logo">
+         <div id = "topic1"> Yantra Summer Internship - 2020 </div>
+        
+          <div id = "topic2"> 22 Framework for Test Driven Development Of Embedded Program </div>
+
+    </div>
+
+
+<div id=wrap>
+    <div id="carousel">
+
+
+          <div class="cloud9-item"> <img  src="images/1.jpg" >  
+          
+              <div class = "name">  Prathamesh Nerkar <div class="role">(Intern) </div> </div>
+        
+          </div>
+
+
+
+         <div class="cloud9-item" >
+              <img  src="images/5.jpg" >
+              <div class = "name"> Suprabha Jadhav      <div class="role"> (Mentor) </div> </div>
+           
+          </div>
+
+      
+        <div  class="cloud9-item">
+                <img src="images/4.jpg" >
+                 <div class = "name"> Rutuja Ekatpure <div class="role">(Mentor) </div> </div>
+                    
+         
+           </div>
+         
+
+
+                  <div class="cloud9-item" >
+              <img  src="images/3.jpg" >
+              <div class = "name"> Kunal Wasnik  <div class="role">(Intern) </div> </div>
+          </div>
+
+
+    	   
+    	       
+        <div class="cloud9-item">
+              <img  src="images/2.png" >
+              <div class = "name"> Vaibhav Singh  <div class="role">(Intern) </div>  </div>
+        </div>
+
+   
+			
+  	
+
+
+
+
+ 
+ 
+
+
+</div>
+
+
+    
+
+
+<div id="buttons">
+  <button class="left">
+    ←
+  </button>
+  <button class="right">
+    →
+  </button>
+</div>
+</div >
+
+  </body>
+</html>
